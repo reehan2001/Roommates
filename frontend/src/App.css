@@ -1,0 +1,544 @@
+html {
+  
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ button {
+  border: none;
+  outline: none;
+ }
+
+body {
+  background: #121212;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.Home_text {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #c4c5c5;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Home_cardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.Home_signinWrapper {
+  margin-top: 20px;
+}
+
+.Home_hasInvite {
+  color: #0077ff;
+}
+
+
+.Nav_navbar {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav_logoutUser {
+  background: none;
+  cursor: pointer;
+}
+
+.Nav_navRight {
+  display: flex;
+  align-items: center;
+}
+
+.Nav_avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0077ff;
+  margin: 0 20px;
+  margin-right: 10px;
+}
+
+
+
+
+.Card_card {
+  width: 500px;
+  max-width: 90%;
+  min-height: 300px;
+  background: #1d1d1d;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+.Card_headingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.Card_heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
+.Button_button {
+  background: #0077ff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Button_button:hover {
+  background: #014a9c;
+}
+.Button_arrow {
+  margin-left: 10px;
+}
+
+.Text_input {
+  background: #323232;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+.Phone_actionButtonWrap {
+  margin-top: 40px;
+}
+
+.Phone_bottomParagraph {
+  color: #c4c5c5;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+.Email_actionButtonWrap {
+  margin-top: 40px;
+}
+
+.Email_bottomParagraph {
+  color: #c4c5c5;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+.PhoneEmail_cardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.PhoneEmail_buttonWrap {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.PhoneEmail_tabButton {
+  width: 60px;
+  height: 60px;
+  background: #262626;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.PhoneEmail_tabButton:last-child {
+  margin-left: 20px;
+}
+
+.active {
+  background: #0077ff;
+}
+
+
+.Otp_cardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.Otp_bottomParagraph {
+  color: #c4c5c5;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.Otp_actionButtonWrap {
+  margin-top: 40px;
+}
+
+.name_paragraph{
+  width: 70%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.Activate_cardWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+
+.subHeading {
+  color: #c4c5c5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.avatarWrapper {
+  width: 110px;
+  height: 110px;
+  border: 6px solid #0077ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.avatarImage {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+}
+
+.avatarInput {
+  display: none;
+}
+
+.avatarLabel {
+  color: #0077ff;
+  margin: 30px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Loading_card {
+  width: 500px;
+  max-width: 90%;
+  min-height: 300px;
+  background: #1d1d1d;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Loading_message {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.Loading_spinner {
+  margin-bottom: 20px;
+  animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+.Rooms_roomsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.Rooms_left {
+  display: flex;
+  align-items: center;
+}
+
+.Rooms_heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Rooms_searchBox {
+  background: #262626;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  min-width: 300px;
+  border-radius: 20px;
+}
+
+.Rooms_searchInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+  width: 100%;
+}
+
+.Rooms_heading {
+  position: relative;
+}
+
+.Rooms_heading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60%;
+  height: 4px;
+  background: #0077ff;
+}
+
+.Rooms_startRoomButton {
+  display: flex;
+  align-items: center;
+  background: #20bd5f;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.Rooms_startRoomButton span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.Rooms_startRoomButton:hover {
+  background: #0f6632;
+}
+
+.Rooms_roomList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+
+
+
+.RoomCard_card {
+  background: #1d1d1d;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.RoomCard_speakers {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 20px 0;
+}
+
+.RoomCard_avatars img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #20bd5f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #1d1d1d;
+}
+
+.RoomCard_avatars img:last-child {
+  top: 20px;
+  left: 20px;
+}
+
+.RoomCard_names {
+  margin-left: 100px;
+}
+
+.RoomCard_names span {
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.RoomCard_peopleCount {
+  text-align: right;
+}
+
+.RoomCard_peopleCount span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.RoomCard_singleSpeaker .avatars img {
+  position: initial;
+}
+
+.RoomCard_singleSpeaker .names {
+  margin-left: 20px;
+}
+
+
+
+.RoomModal_modalMask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RoomModal_modalBody {
+  width: 50%;
+  max-width: 500px;
+  background: #1d1d1d;
+  border-radius: 20px;
+  position: relative;
+}
+
+.RoomModal_modalHeader {
+  padding: 30px;
+  border-bottom: 2px solid #262626;
+}
+
+.RoomModal_roomTypes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.RoomModal_typeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.RoomModal_typeBox.active {
+  background: #262626;
+}
+
+.RoomModal_heading {
+  margin-bottom: 5px;
+}
+
+.RoomModal_subHeading {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.RoomModal_modalFooter {
+  padding: 30px;
+  text-align: center;
+}
+.RoomModal_modalFooter h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.RoomModal_footerButton {
+  background: #20bd5f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: center;
+  padding: 7px 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.RoomModal_footerButton:hover {
+  background: #13763b;
+}
+
+.RoomModal_footerButton span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.RoomModal_closeButton {
+  position: absolute;
+  right: 3px;
+  top: 8px;
+  background: none;
+}
+
+
+
+
+
